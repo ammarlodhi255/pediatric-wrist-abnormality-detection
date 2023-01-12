@@ -1,0 +1,16 @@
+# Images and labels direcotry should be relative to train.py
+TRAIN_DIR_IMAGES: 'data/ppe/dataset/images/train'
+TRAIN_DIR_LABELS: 'data/ppe/dataset/labels/train'
+VALID_DIR_IMAGES: 'data/ppe/dataset/images/val'
+VALID_DIR_LABELS: 'data/ppe/dataset/labels/val'
+TEST_DIR_IMAGES: 'data/ppe/dataset/images/test'
+TEST_DIR_LABELS: 'data/ppe/dataset/labels/test'
+
+# Class names.
+CLASSES: ['boneanomaly','bonelesion','foreignbody','fracture','metal','periostealreaction','pronatorsign','softtissue','text']
+
+# Number of classes (object classes in Faster RCNN).
+NC: 10
+
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True
