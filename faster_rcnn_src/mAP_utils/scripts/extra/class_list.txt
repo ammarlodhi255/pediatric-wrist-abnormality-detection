@@ -1,0 +1,9 @@
+boneanomaly
+bonelesion
+foreignbody
+fracture
+metal
+periostealreaction
+pronatorsign
+softtissue
+text

@@ -1,0 +1,20 @@
+# AP and precision/recall per class
+50.00% = fracture AP 
+ Precision: ['1.00', '0.50']
+ Recall :['0.50', '0.50']
+
+100.00% = text AP 
+ Precision: ['1.00']
+ Recall :['1.00']
+
+
+# mAP of all classes
+mAP = 75.00%
+
+# Number of ground-truth objects per class
+fracture: 2
+text: 1
+
+# Number of detected objects per class
+fracture: 2 (tp:1, fp:1)
+text: 1 (tp:1, fp:0)
